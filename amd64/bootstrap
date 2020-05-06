@@ -1,5 +1,6 @@
 #!/bin/ksh
 set -eu
+IFS=$'\n\t '
 
 sudo pkg_add -u
 sudo pkg_add python-3.6.4p0 py3-pip
